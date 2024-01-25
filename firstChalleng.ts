@@ -14,7 +14,6 @@ export function smallestDifference(a: number[], b: number[]) {
 
   return smallest;
 }
-const a = [10, 5, 40];
-const b = [50, 90, 80];
-
+const a = [1, 3, 15, 11, 2];
+const b = [23, 127, 235, 19, 8];
 console.log(smallestDifference(a, b));
